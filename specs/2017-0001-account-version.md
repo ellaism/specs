@@ -1,4 +1,4 @@
-###  Maintain Existing Account Compatibility While Hard Forking
+# Maintain Existing Account Compatibility While Hard Forking
 
 <pre>
   Number: ella-2017-0001
