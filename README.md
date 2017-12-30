@@ -57,9 +57,9 @@ below:
   consensus-related specification. In this case, the editor shall move
   the specification to **Planned** state, and transparently indicate
   support level (*Majority Fork*, *Chain Split*, or *Minority Fork*).
-* Once a fork happens, and the forked can survives, a specification is
-  moved to **Enforced** state. If chain split happened, it should also
-  incidate which particular chain this specification is
+* Once a fork happens, and the forked chain survives, a specification
+  is moved to **Enforced** state. If chain split happened, it should
+  also incidate which particular chain this specification is
   on. Specifications in this state also get a STD number in the format
   of `ella-$number-$feature`.
 * By default, if chain split happens, this specification repository
