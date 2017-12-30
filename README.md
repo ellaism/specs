@@ -67,7 +67,7 @@ below:
   specifications, then it would only move to **Draft** state following
   the first specification that it relies.
   
-The current editor is `Ellaismer <ellaismer@protonmail.ch>` and `Wei
+The current editors are `Ellaismer <ellaismer@protonmail.ch>` and `Wei
 Tang <hi@that.world>`.
 
 ## Specifications
