@@ -43,9 +43,7 @@ below:
   specification into an acceptable quality. In this case, no
   subjective judgement shall happen. After that, the specification is
   merged in **Proposed** state. In this process, the specification
-  gets its RFC number in the format of
-  `spec-$year-$number-$feature`. It is recommended that ethoxy
-  repositories don't use duplicate `$number` for each year.
+  gets its RFC number in the format of `ella-$year-$number-$feature`.
 * Once a specification is merged, the editor is responsible for
   collecting statistics of positive/negative support indications and
   transparently display them to readers. This can include technical
@@ -61,7 +59,7 @@ below:
   is moved to **Enforced** state. If chain split happened, it should
   also incidate which particular chain this specification is
   on. Specifications in this state also get a STD number in the format
-  of `ella-$number-$feature`.
+  of `ella-std-$number-$feature`.
 * By default, if chain split happens, this specification repository
   would support both chains, unless one of the chains decided to
   abandon this process.
@@ -71,3 +69,9 @@ below:
   
 The current editor is `Ellaismer <ellaismer@protonmail.ch>` and `Wei
 Tang <hi@that.world>`.
+
+## Specifications
+
+| Number                                          | Title                                                      | Author   | State    | Discussion                                      |
+|-------------------------------------------------|------------------------------------------------------------|----------|----------|-------------------------------------------------|
+| [2017-0001](specs/2017-0001-account-version.md) | Maintain Existing Account Compatibility While Hard Forking | Wei Tang | Proposed | [#1](https://github.com/ellaism/specs/issues/1) |
