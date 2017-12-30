@@ -18,15 +18,17 @@ also needs to be decentralized. This specification repository proposes
 that we use the *swarm methodology* for handling consensus-related
 decisions. Everyone is free to take or follow any initiative, or take
 no action at all, and nobody may tell anybody else what to do or what
-initiative to follow or not to follow. And this is one of the
-important property while designing or modifying the process for this
-repository.
+initiative to follow or not to follow. Everyone owns the Ellaism
+blockchain, and nobody shall need to ask permissions. And this is one
+of the important property while designing or modifying the process for
+this repository.
 
 ### Coordinate Efforts
 
 In consensus, it is often important to understand what others try to
 do when making our own decisions. We aim to use this repository to
-help this situation, by providing statistics of what others claim they
+help this situation, by providing statistics (developer and company
+supports, CarbonVote and MinerVote) of what others claim they
 would decide to do, and to resolve dispute if two different parties
 have similar goals.
 
