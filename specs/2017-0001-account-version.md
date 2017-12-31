@@ -35,6 +35,8 @@ After the first hard fork using this scheme, the account state stored in the wor
 
 The behavior of `CALLCODE` and `DELEGATECALL` are not affected by the hard fork -- they would fetch the contract code (even if the contract is deployed in a newer version) and still use the virtual machine version defined in the current contract (or in the case of within the input of contract creation transaction or `CREATE` opcode, the newest virtual machine version) to execute the code.
 
+If a message call transaction creates a new account, the newly created account will have the newest account version number in the network.
+
 There is no versioning for precompiled contracts. Once hard fork, they're available for both old and new accounts.
 
 ### Handle Receipts
