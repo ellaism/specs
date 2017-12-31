@@ -1,8 +1,8 @@
-# Maintain Existing Account Compatibility While Hard Forking
+# Generalized Account Versioning Scheme for Hard Fork
 
 <pre>
   Number: ella-2017-0001
-  Title: Smart Contract Account Versioning
+  Title: Generalized Account Versioning Scheme for Hard Fork
   Author: Wei Tang <hi@that.world>
   Status: Proposed
   Type: Standards Track
