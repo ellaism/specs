@@ -74,4 +74,4 @@ Tang <hi@that.world>`.
 
 | Number                                          | Title                                                      | Author   | State    | Discussion                                      |
 |-------------------------------------------------|------------------------------------------------------------|----------|----------|-------------------------------------------------|
-| [2017-0001](specs/2017-0001-account-version.md) | Maintain Existing Account Compatibility While Hard Forking | Wei Tang | Proposed | [#4](https://github.com/ellaism/specs/issues/4) |
+| [2017-0001](specs/2017-0001-account-version.md) | Smart Contract Account Versioning | Wei Tang | Proposed | [#4](https://github.com/ellaism/specs/issues/4) |

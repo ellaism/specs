@@ -2,7 +2,7 @@
 
 <pre>
   Number: ella-2017-0001
-  Title: Maintain Existing Account Compatibility While Hard Forking
+  Title: Smart Contract Account Versioning
   Author: Wei Tang <hi@that.world>
   Status: Proposed
   Type: Standards Track
