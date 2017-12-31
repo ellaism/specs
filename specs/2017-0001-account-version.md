@@ -7,7 +7,7 @@
   Status: Proposed
   Type: Standards Track
   Layer: Meta/Consensus
-  Discussion: https://github.com/ellaism/specs/issues/1
+  Discussion: https://github.com/ellaism/specs/issues/4
   Created: 2017-12-30
 </pre>
     
