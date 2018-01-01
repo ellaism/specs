@@ -1,15 +1,13 @@
 # Generalized Account Versioning Scheme for Hard Fork
 
-<pre>
-  Number: ella-2017-0001
-  Title: Generalized Account Versioning Scheme for Hard Fork
-  Author: Wei Tang (hi@that.world)
-  Status: Proposed
-  Type: Standards Track
-  Layer: Meta/Consensus
-  Discussion: https://github.com/ellaism/specs/issues/4
-  Created: 2017-12-30
-</pre>
+    Number: ella-2017-0001
+    Title: Generalized Account Versioning Scheme for Hard Fork
+    Author: Wei Tang <hi@that.world>
+    Status: Proposed
+    Type: Standards Track
+    Layer: Meta/Consensus
+    Discussion: https://github.com/ellaism/specs/issues/4
+    Created: 2017-12-30
     
 ## Abstract
 
