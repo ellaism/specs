@@ -3,7 +3,7 @@
 <pre>
   Number: ella-2017-0001
   Title: Generalized Account Versioning Scheme for Hard Fork
-  Author: Wei Tang <hi@that.world>
+  Author: Wei Tang (hi@that.world)
   Status: Proposed
   Type: Standards Track
   Layer: Meta/Consensus
