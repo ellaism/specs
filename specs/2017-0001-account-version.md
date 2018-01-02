@@ -35,7 +35,12 @@ The behavior of `CALLCODE` and `DELEGATECALL` are not affected by the hard fork 
 
 If a message call transaction creates a new account, the newly created account will have the newest account version number in the network.
 
-There is no versioning for precompiled contracts. Once hard fork, they're available for both old and new accounts.
+### Precompiled Contracts
+
+Precompiled contract execution is defined as follow. Precompiled contract is considered to be embedded in the virtual machine. It does two things:
+
+1. Execute a pre-defined routine.
+2. Issue a default message call transaction with the given amount to the target address. Because the target address is expected to have empty code, this is equivalent to a simple value transfer. If the target address does not exist, the newly created account will have the newest account version number in the network, the same as a default message call transaction.
 
 ### Handle Receipts
 
