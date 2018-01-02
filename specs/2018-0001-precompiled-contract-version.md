@@ -15,7 +15,7 @@ This defines a scheme for precompiled contract versioning as an alternative for 
 
 ## Specification
 
-Even with [ella-2017-0001](./2017-0001-account-version.md) applied, the effect of precompiled contracts are hidden in the state trie. As an alternative, however, we can make it visiable and at the same time. We do this by having a separate set of account versions for precompiled contracts.
+Even with [ella-2017-0001](./2017-0001-account-version.md) applied, the effect of precompiled contracts are hidden in the state trie. As an alternative, however, we can make it visiable. We do this by having a separate set of account versions for precompiled contracts.
 
 We define *precompiled contract deployment system transactions*. This type of transaction is in the same category of *block reward system transactions* and it is not recorded in a block's `transactions` set. Precompiled contract deployment system transactions are only valid for a particular block number, and for a particular address. Not having this system transaction is also invalid. Once executed, this type of transaction deploys a precompiled contract with a given account version starting from `10001`. It inherits the current account balance, set the code hash to to the empty code hash, stroage to the empty storage, and set the given account version. To transit to this scheme, we use the following backward-compatible method.
 
