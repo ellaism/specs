@@ -35,14 +35,11 @@ The behavior of `CALLCODE` and `DELEGATECALL` are not affected by the hard fork 
 
 If a message call transaction creates a new account, the newly created account will have the newest account version number in the network.
 
-### Precompiled Contracts
+Precompiled contracts, once created, use the given account version. If the account does not exist yet, newest version of the VM is used (as in the standard message call transaction). This is made so that VMs do not need full permission of the state trie but only with in the smart contract boundary. It is expected that once a precompiled contract is created, its behavior will not change. As an alternative design, see [ella-2018-0001](./2018-0001-precompiled-contract-version.md).
 
-Precompiled contract execution is defined as follow. Precompiled contract is considered to be embedded in the virtual machine. It does two things:
+### Gas Boundary
 
-1. Execute a pre-defined routine.
-2. Issue a default message call transaction with the given amount to the target address. Because the target address is expected to have empty code, this is equivalent to a simple value transfer. If the target address does not exist, the newly created account will have the newest account version number in the network, the same as an external `CALL` opcode.
-
-In this case, `CALL` or message call transaction to precompiled contracts from different virtual machine versions can have different behaviors. Message call transaction will use the behavior from the newest virtual machine version. As an alternative design, see [ella-2018-0001](./2018-0001-precompiled-contract-version.md).
+With the boundary between the VM and the blockchain, we don't consider there're additional gas cost involved. VM used defines the gas table applied. As examples, intrinsic gas only applies to actual transactions so only the newest ones are used. `CALL` and `CREATE` will use the old gas cost as the opcode gas cost, and once switched to the new VM, use the new gas cost from there.
 
 ### Handle Receipts
 
