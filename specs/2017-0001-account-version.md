@@ -40,7 +40,9 @@ If a message call transaction creates a new account, the newly created account w
 Precompiled contract execution is defined as follow. Precompiled contract is considered to be embedded in the virtual machine. It does two things:
 
 1. Execute a pre-defined routine.
-2. Issue a default message call transaction with the given amount to the target address. Because the target address is expected to have empty code, this is equivalent to a simple value transfer. If the target address does not exist, the newly created account will have the newest account version number in the network, the same as a default message call transaction.
+2. Issue a default message call transaction with the given amount to the target address. Because the target address is expected to have empty code, this is equivalent to a simple value transfer. If the target address does not exist, the newly created account will have the newest account version number in the network, the same as an external `CALL` opcode.
+
+In this case, `CALL` or message call transaction to precompiled contracts from different virtual machine versions can have different behaviors. Message call transaction will use the behavior from the newest virtual machine version. As an alternative design, see [ella-2018-0001](./2018-0001-precompiled-contract-version.md).
 
 ### Handle Receipts
 
