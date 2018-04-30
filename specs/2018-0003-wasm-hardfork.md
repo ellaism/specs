@@ -1,4 +1,4 @@
-# Alternative Scheme of Precompiled Contract Versioning for Hard Fork
+# Hardfork Meta: WebAssembly
 
     Number: ella-2018-0003
     Title: Hardfork Meta: WebAssembly
@@ -6,7 +6,7 @@
     Status: Proposed
     Type: Standards Track
     Layer: Meta
-    Discussion: <to be added>
+    Discussion: https://github.com/ellaism/specs/issues/11
     Created: 2018-04-30
 
 ## Abstract
@@ -17,4 +17,4 @@ This specifies the changes included in the hard fork named WebAssembly.
 
 * Activation: Block >= 2,000,000 on Mainnet.
 * Included specifications:
-  * [2018-0002: WebAssembly Smart Contracts](https://github.com/ellaism/specs/pull/6)
+  * [2018-0002: WebAssembly Smart Contracts](2018-0002-webassembly.md)
