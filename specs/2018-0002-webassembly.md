@@ -6,7 +6,7 @@
     Status: Proposed
     Type: Standards Track
     Layer: Consensus
-    Discussion: https://github.com/ellaism/specs/issues/5
+    Discussion: https://github.com/ellaism/specs/issues/10
     Created: 2018-04-30
 
 ## Motivation
@@ -72,7 +72,9 @@ I32DivS, I32DivU, I32RemS, I32RemU, I64DivS, I64DivU, I64RemS, I64RemU
 I32Mul, I64Mul
 ```
 
-All floating type instructions are disabled. And the initial memory region has a cost of `4096` per page, and growing memories have costs of `8192` per page.
+All floating type instructions are disabled. For other instructions, the cost is `1`.
+
+The initial memory region has a cost of `4096` per page, and growing memories have costs of `8192` per page.
 
 For external host functions, gas costs as in EVM applies, in addition:
 
