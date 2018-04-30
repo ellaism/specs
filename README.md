@@ -77,3 +77,5 @@ Tang <hi@that.world>`.
 | [2017-0001](specs/2017-0001-account-version.md)              | Generalized Account Versioning Scheme for Hard Fork                 | Wei Tang | Proposed | [#4](https://github.com/ellaism/specs/issues/4) |
 | [2018-0001](specs/2018-0001-precompiled-contract-version.md) | Alternative Scheme of Precompiled Contract Versioning for Hard Fork | Wei Tang | Proposed | [#5](https://github.com/ellaism/specs/issues/5) |
 | [2018-0002](specs/2018-0002-webassembly.md)                  | WebAssembly Smart Contracts | "ellaismer" | Proposed | [#10](https://github.com/ellaism/specs/issues/10) |
+| [2018-0003](specs/2018-0003-wasm-hardfork.md)                | Hardfork Meta: WebAssembly | "ellaismer" | Proposed | [#11](https://github.com/ellaism/specs/issues/11) |
+| [2018-0004](specs/2018-0004-byzantium.md)                    | Hardfork Meta: Byzantium | "ellaismer" | Proposed | [#12](https://github.com/ellaism/specs/issues/12) |
