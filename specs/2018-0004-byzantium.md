@@ -6,7 +6,7 @@
     Status: Proposed
     Type: Standards Track
     Layer: Meta
-    Discussion: <to be added>
+    Discussion: https://github.com/ellaism/specs/issues/12
     Created: 2018-04-30
 
 ## Abstract
