@@ -5,10 +5,10 @@
     Author: Wei Tang <hi@that.world>
     Status: Proposed
     Type: Standards Track
-    Layer: Meta/Consensus
+    Layer: Consensus
     Discussion: https://github.com/ellaism/specs/issues/5
     Created: 2018-01-02
-    
+
 ## Motivation
 
 This defines a scheme for precompiled contract versioning as an alternative for the precompiled contract handling defined in [ella-2017-0001](./2017-0001-account-version.md). This adds certain complexity. However, it has the advantage that it makes effect of precompiled contracts to be visible on the state trie and might to simplify future virtual machine design.

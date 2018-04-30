@@ -5,10 +5,10 @@
     Author: Wei Tang <hi@that.world>
     Status: Proposed
     Type: Standards Track
-    Layer: Meta/Consensus
+    Layer: Consensus
     Discussion: https://github.com/ellaism/specs/issues/4
     Created: 2017-12-30
-    
+
 ## Abstract
 
 This defines a method of hard forking while maintaining the exact functionality of existing account by allowing multiple versions of the virtual machines to execute in the same block. This is also useful to define future account state structures when we introduce the on-chain WebAssembly virtual machine.
