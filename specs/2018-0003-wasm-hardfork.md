@@ -3,7 +3,7 @@
     Number: ella-2018-0003
     Title: Hardfork Meta: WebAssembly
     Author: "ellaismer" <ellaismer@protonmail.ch>
-    Status: Proposed
+    Status: Planned
     Type: Standards Track
     Layer: Meta
     Discussion: https://github.com/ellaism/specs/issues/11
