@@ -3,7 +3,7 @@
     Number: ella-2018-0004
     Title: Hardfork Meta: Byzantium
     Author: "ellaismer" <ellaismer@protonmail.ch>
-    Status: Proposed
+    Status: Planned
     Type: Standards Track
     Layer: Meta
     Discussion: https://github.com/ellaism/specs/issues/12
