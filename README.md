@@ -79,3 +79,4 @@ Tang <hi@that.world>`.
 | [2018-0002](specs/2018-0002-webassembly.md)                  | WebAssembly Smart Contracts | "ellaismer" | Proposed | [#10](https://github.com/ellaism/specs/issues/10) |
 | [2018-0003](specs/2018-0003-wasm-hardfork.md)                | Hardfork Meta: WebAssembly | "ellaismer" | Proposed | [#11](https://github.com/ellaism/specs/issues/11) |
 | [2018-0004](specs/2018-0004-byzantium.md)                    | Hardfork Meta: Byzantium | "ellaismer" | Proposed | [#12](https://github.com/ellaism/specs/issues/12) |
+| [2018-0005](specs/2018-0005-comfund-reward.md)               | Reward Structure Adjustment to Make a Community Fund | Sooraj Singh | Draft | [#13](https://github.com/ellaism/specs/issues/13) |
